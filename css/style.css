@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>
+Lollipop Browser - Fast, Easy with Material Design
+</title>
+ 
+ <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+</head>
+<body>
+  
+  <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo right"><i class="mdi-hardware-tablet-android"></i> &nbsp; &nbsp;Lollipop </a>
+        <ul id="nav-mobile" class="left side-nav">
+          <li><a href="">About</a></li>
+          <li><a href="http://practicalknowledgeapps.weebly.com/blog/launching-first-app-lollipop-browser">Updates</a></li>
+          <li><a href="http://practicalknowledgeapps.weebly.com/">More Apps</a></li>
+          <li><a href="mailto:teamgymshym@gmail.com">Feedback</a></li>
+        </ul>
+        <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+      </div>
+    </nav>
+         <center>
+         <br/>
+         <img src="images/icon.png"></img>
+
+         <br/><br/>
+         <h2>Thank you for using Lollipop Browser </h2>
+
+         <br/>
+         <h4>Developed by - Practical Knowledge Apps </h4>
+         <br/>
+         <h4>Version - 1.0.0 </h4>
+         <br/>
+         <h4>Visit us at - <a href="http://practicalknowledgeapps.weebly.com/"> Practical Knowledge Apps Site</h4>
+         <br/>
+         <h5>App Icon By - <a href="http://jozefkrajcovic.sk/"> Jozef </a> <h5>
+         <h5>Material design theme - <a href="http://materializecss.com/"> Materialize </a> </h5>
+         <br/>
+
+         <h6>Lollipop Browser © 2014 - All rights reserved </h6>
+         </center>
+
+
+      
+
+
+
+
+
+      
+      
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+      $( document ).ready(function(){
+  $(".button-collapse").sideNav();
+  $('.collapsible').collapsible();
+})
+
+      </script>
+
+
+</body>
+</html>
