@@ -1,0 +1,14 @@
+
+<widget id="com.lollipop.browser" version="1.0.0">
+<name>Lollipop - Fast, Light and Easy Browser</name>
+<description>
+Lollipop Browser is the easiest browser to use based on Material Design.
+</description>
+<author email="teamgymshym@gmail.com">
+Aditya
+</author>
+<content src="index.html" />
+<access origin="*" />
+<preference name="Fullscreen" value="true" />
+<preference name="WebViewBounce" value="true" />
+</widget>
